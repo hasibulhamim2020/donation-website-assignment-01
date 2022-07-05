@@ -7,14 +7,16 @@ body {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
+
 
 .top-section {
     color: white;
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 80px;
 }
 
@@ -32,8 +34,111 @@ body {
     text-decoration: none;
     padding: 10px 40px;
     border-radius: 7px;
-    font-weight: 400;
+    font-weight: 700;
     background-color: #FF5959;
     color: white;
+
+}
+
+.donate {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.donate h1 {
+    font-size: 35px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.amunt-box-model {
+    width: 80px;
+    height: fit-content;
+    border: 3px solid rgb(192, 189, 189);
+    border-radius: 5px;
+    background-color: rgb(192, 189, 189);
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.amunt-box-model-selected {
+    width: 80px;
+    height: fit-content;
+    border: 3px solid #FF5959;
+    border-radius: 5px;
+    background-color: #faa4a4;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#donate-button-2nd {
+    justify-content: center;
+}
+
+.box-model {
+
+    width: 250px;
+    height: 250px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
+}
+
+#box-model-01 {
+    background-color: #edf5f6;
+}
+
+#box-model-02 {
+    background-color: #ffeeee;
+}
+
+#box-model-03 {
+    background-color: #fff4d6;
+}
+
+.box-model-bottom {
+
+    width: 70%;
+    height: 100px;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 60px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+}
+
+.email {
     font-weight: 700;
+    font-size: large;
+
+}
+
+.click-button-subscribe {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 0px;
+    font-weight: 700;
+    background-color: #FF5959;
+    color: white;
 }
