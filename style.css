@@ -17,11 +17,13 @@ body {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 30px;
-    padding-bottom: 80px;
+    padding-bottom: 220px;
 }
 
 .top-section h1 {
     font-size: 45px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 
 }
 
@@ -29,6 +31,8 @@ body {
     padding-bottom: 20px;
 
 }
+
+
 
 .link-button-bidyanondo {
     text-decoration: none;
@@ -102,12 +106,20 @@ body {
 
 }
 
-.top-section hr {
+.other-amount {
+    color: white;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.other-amount hr {
     margin-bottom: 20px;
 }
 
 .box-model {
-
     width: 250px;
     height: 250px;
     border: 0px;
@@ -132,7 +144,6 @@ body {
     background-color: #fff4d6;
 }
 
-
 .half-width {
     width: 45%;
     height: auto;
@@ -146,6 +157,7 @@ body {
 .half-widthimg {
     width: 45%;
     height: auto;
+    text-align: center;
     padding-left: 10px;
     padding-top: 100px;
     padding-right: 10px;
@@ -160,13 +172,13 @@ body {
     padding-top: 100px;
     padding-right: 10px;
     margin-right: 5%;
-
     text-align: justify;
 }
 
 .half-widthimg-02 {
     width: 45%;
     height: auto;
+    text-align: center;
     padding-left: 10px;
     padding-top: 100px;
     padding-right: 10px;
@@ -192,7 +204,6 @@ body {
     border: none;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
-    color: white;
     background-color: gainsboro;
 }
 
