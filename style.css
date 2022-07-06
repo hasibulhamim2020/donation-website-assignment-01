@@ -119,6 +119,50 @@ body {
     margin-bottom: 20px;
 }
 
+.gelary-head {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.section-galary {
+    display: flex;
+    width: auto;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+
+
+.width-galary {
+    width: auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.width-galary img {
+    border-radius: 10px;
+}
+
+.button-assunnah {
+    padding: 20px 40px;
+    border-radius: 7px;
+    font-weight: 700;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: auto;
+    text-align: center;
+    background-color: #FF5959;
+    margin-bottom: 50px;
+}
+
+.button-assunnah a {
+    color: white;
+    text-decoration: none;
+}
+
 .box-model {
     width: 250px;
     height: 250px;
